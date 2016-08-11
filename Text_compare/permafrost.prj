@@ -1,0 +1,71 @@
+GSSHAPROJECT
+WMS WMS 8.4
+WATERSHED_MASK           "permafrost.msk"
+PROJECT_PATH             ""
+#PROJECTION_FILE         "permafrost_prj.pro"
+NON_ORTHO_CHANNELS
+FLINE                    "permafrost.map"
+METRIC
+GRIDSIZE                 100.000000
+ROWS                     11
+COLS                     10
+TOT_TIME                 2260
+TIMESTEP                 60
+OUTROW                   11
+OUTCOL                   1
+OUTSLOPE                 0.001000
+MAP_FREQ                 60
+HYD_FREQ                 60
+MAP_TYPE                 1
+ELEVATION                "permafrost.ele"
+DEPTH                    "permafrost.dep"
+GW_OUTPUT                "permafrost.ghm"
+CHAN_DISCHARGE           "permafrost.cdq"
+DIFFUSIVE_WAVE
+CHANNEL_INPUT            "permafrost.cif"
+STREAM_CELL              "permafrost.gst"
+OVERTYPE                 ADE
+ET_CALC_PENMAN
+INF_RICHARDS
+RICHARDS_WEIGHT          1.000000
+RICHARDS_DTHETA_MAX      0.025000
+RICHARDS_C_OPTION        BROOKS
+RICHARDS_K_OPTION        GEOMETRIC
+RICHARDS_UPPER_OPTION    NORMAL
+RICHARDS_ITER_MAX        1
+SOIL_MOIST_DEPTH         0.150000
+TOP_LAYER_DEPTH          0.200000
+MAPPING_TABLE            "permafrost.cmt"
+ST_MAPPING_TABLE         "permafrost.smt"
+GW_SIMULATION
+AQUIFER_BOTTOM           "permafrost.aqe"
+WATER_TABLE              "permafrost.wte"
+GW_BOUNDFILE             "permafrost.bnd"
+GW_TIMESTEP              120.000000
+GW_LSOR_DIR              1
+GW_LSOR_CON              0.000010
+GW_RELAX_COEFF           1.200000
+GW_LEAKAGE_RATE          0.000000
+AQUIFER_DELTA_Z          0.500000
+SUMMARY                  "permafrost.sum"
+OUTLET_HYDRO             "permafrost.otl"
+PRECIP_FILE              "precip.txt"
+RAIN_INV_DISTANCE
+#PRECIP_UNIF
+#RAIN_INTENSITY           10.000000
+#RAIN_DURATION            300
+START_DATE               2006 09 22
+START_TIME               00 00
+LONG_TERM
+LATITUDE                 65.000000
+LONGITUDE                147.000000
+GMT                      -9.000000
+EVENT_MIN_Q              0.00100000
+HMET_WES                 "HMET.txt"
+#HMET_WES                 "HMET_Permafrost.txt"
+IN_HYD_LOCATION          "permafrost.ihl"
+OUT_HYD_LOCATION         "permafrost.ohl"
+PERMAFROST_GIPL               "permabound.txt"
+OUT_GIPL_TEMP            "temp_out.gip" 
+
+
